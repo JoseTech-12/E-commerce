@@ -13,7 +13,7 @@ export const App = () => {
       try {
         const productsData = await getProducts();
         setProducts(productsData);
-        console.log(products);
+       
       } catch (error) {
         console.error(error);
       }
