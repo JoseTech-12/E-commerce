@@ -44,9 +44,9 @@ export const App = () => {
           </button>
         ))}
       </nav>
-
-      <div>
-        <h2>Productos</h2>
+ <h2>Products</h2>
+      <div className="contenCards">
+       
         {filteredProducts.map((product) => (
           <Card key={product.id} product={product} />
         ))}

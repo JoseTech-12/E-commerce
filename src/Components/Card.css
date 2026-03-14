@@ -1,0 +1,18 @@
+.card{
+    width: 350px;
+    height: 500px;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+.card:hover{
+    border-color: #888;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.productImage{
+    width: 200px;
+
+}
